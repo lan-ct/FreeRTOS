@@ -8,4 +8,6 @@
 
 计数信号量
 
-通过xSemaphoreCreateCount创建，第一个参数为最大计数，第二个为初始计数，返回值依然是SemaphoreHandle_t,
+通过xSemaphoreCreateCount创建，第一个参数为最大计数，第二个为初始计数，返回值依然是SemaphoreHandle_t,操作方式和二值信号量几乎一样
+
+
