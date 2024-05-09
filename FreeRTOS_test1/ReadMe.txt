@@ -1,0 +1,1 @@
+two tasks get one num and add it without mutex

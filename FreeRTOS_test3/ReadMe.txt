@@ -1,0 +1,3 @@
+critical section test
+临界区代码会执行到退出临界区，且不会被中断打断
+在临界区中使用让出cpu的操作如vTaskDelay和vTaskDelete均没有效果。临界区的vTaskDelete退出临界区后才会生效

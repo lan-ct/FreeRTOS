@@ -1,0 +1,3 @@
+线程挂起与恢复
+vTaskSuspendAll()会挂起调度器，在执行xTaskResumeAll()之前调度器不会为cpu切换其它任务，但调用挂起的任务可以继续执行，且此时中断依然可以进行。
+vTaskSuspend会挂起当前任务，当前任务将不会再被调度器进行调度直到它被xTaskResume从·挂起状态解除。
